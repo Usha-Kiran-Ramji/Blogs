@@ -8,10 +8,9 @@ import Header from "./components/Header";
 
 function App() {
   const [blogs, setBlogs] = useState([
-    // Sample data
     { id: 1, title: "Blog 1", content: "Content 1", image: "image-url-1" },
     { id: 2, title: "Blog 2", content: "Content 2", image: "image-url-2" },
-    // Add more blog data here
+
   ]);
 
   return (
